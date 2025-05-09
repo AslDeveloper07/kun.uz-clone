@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -259,17 +260,132 @@
         <h1>Video Yangiliklar</h1>
         <i class="ri-reply-all-fill"></i>
     </div>
-    <main class="card container">
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-        <div class="cards"></div>
-    </main>
-    <div class="video_new container">
+    <!-- Add this after the video_news div -->
+    <div class="video_card_container container">
+        <!-- Video Card 1 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/gradus 40c.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/gTtLfgOq94Y')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Jahon</span>
+                <h3>Hindiston va Pokiston o'rtasidagi mojaro kuchaymoqda</h3>
+                <span class="video_time">09:32 | 09.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/inter minal.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/dQw4w9WgXcQ')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> O'zbekiston</span>
+                <h3>Yangi qurilgan uylar soni 2025 yilda rekord darajaga yetdi</h3>
+                <span class="video_time">08:45 | 09.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/kun elon logo.png" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/9bZkp7q19f0')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Sport</span>
+                <h3>O'zbekiston terma jamoasi Jahon chempionatiga yo'llanma oldi</h3>
+                <span class="video_time">14:20 | 08.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 4 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/mirshakar.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/JGwWNGJdvx8')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Iqtisodiyot</span>
+                <h3>Yilning birinchi choragida eksport hajmi 15% ga oshdi</h3>
+                <span class="video_time">11:15 | 08.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 5 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/predenr.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/5qap5aO4i9A')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Jamiyat</span>
+                <h3>Toshkentda yangi metro bekati ochildi</h3>
+                <span class="video_time">16:40 | 07.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 6 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/presedent.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/7NOSDKb0HlU')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Fan-texnika</span>
+                <h3>O'zbekistonlik olimlar yangi sun'iy yo'g'on olish usulini ixtiro qildi</h3>
+                <span class="video_time">13:05 | 07.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 7 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/tabriklash.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/V-_O7nl0Ii0')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Nuqtaiy nazar</span>
+                <h3>Ekspertlar bahsida: O'zbekistonda ta'lim tizimi islohoti</h3>
+                <span class="video_time">10:30 | 06.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 8 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/benzin li9.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/3tmd-ClpJxA')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Audio</span>
+                <h3>Yangi musiqa albomi: "O'zbekiston tongi"</h3>
+                <span class="video_time">18:15 | 05.05.2025</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoOverlay" class="video-overlay">
+        <div id="videoBox" class="video-box">
+            <i id="closeButton" class="ri-close-line close-button"></i>
+            <iframe id="videoFrame" src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- <div class="video_new container">
         <h1>Video Yangiliklar</h1>
         <i class="ri-reply-all-fill"></i>
     </div>
@@ -282,7 +398,7 @@
         <div class="cardsv"></div>
         <div class="cardsv"></div>
         <div class="cardsv"></div>
-    </main>
+    </main> -->
     <main class="announcement container">
         <div class="announcement_elon">
             <div class="elon_txt_journal">
@@ -491,6 +607,135 @@
 
 
     </swiper-container>
+    <div class="video_news container">
+        <h1>Video Yangiliklar</h1>
+        <i class="ri-reply-all-fill"></i>
+    </div>
+    <!-- Add this after the video_news div -->
+    <div class="video_card_container container">
+        <!-- Video Card 1 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/gradus 40c.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/gTtLfgOq94Y')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Jahon</span>
+                <h3>Hindiston va Pokiston o'rtasidagi mojaro kuchaymoqda</h3>
+                <span class="video_time">09:32 | 09.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 2 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/inter minal.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/dQw4w9WgXcQ')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> O'zbekiston</span>
+                <h3>Yangi qurilgan uylar soni 2025 yilda rekord darajaga yetdi</h3>
+                <span class="video_time">08:45 | 09.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 3 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/kun elon logo.png" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/9bZkp7q19f0')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Sport</span>
+                <h3>O'zbekiston terma jamoasi Jahon chempionatiga yo'llanma oldi</h3>
+                <span class="video_time">14:20 | 08.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 4 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/mirshakar.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/JGwWNGJdvx8')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Iqtisodiyot</span>
+                <h3>Yilning birinchi choragida eksport hajmi 15% ga oshdi</h3>
+                <span class="video_time">11:15 | 08.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 5 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/predenr.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/5qap5aO4i9A')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Jamiyat</span>
+                <h3>Toshkentda yangi metro bekati ochildi</h3>
+                <span class="video_time">16:40 | 07.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 6 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/presedent.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/7NOSDKb0HlU')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Fan-texnika</span>
+                <h3>O'zbekistonlik olimlar yangi sun'iy yo'g'on olish usulini ixtiro qildi</h3>
+                <span class="video_time">13:05 | 07.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 7 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/tabriklash.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/V-_O7nl0Ii0')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Nuqtaiy nazar</span>
+                <h3>Ekspertlar bahsida: O'zbekistonda ta'lim tizimi islohoti</h3>
+                <span class="video_time">10:30 | 06.05.2025</span>
+            </div>
+        </div>
+
+        <!-- Video Card 8 -->
+        <div class="video_card">
+            <div class="video_image_container">
+                <img src="./resources/images/benzin li9.jpg" alt="Video thumbnail">
+                <i class="ri-play-fill play-button"
+                    onclick="openVideoModal(this, 'https://www.youtube.com/embed/3tmd-ClpJxA')"></i>
+            </div>
+            <div class="video_text_content">
+                <span class="video_category"><i class="ri-play-circle-fill"></i> Audio</span>
+                <h3>Yangi musiqa albomi: "O'zbekiston tongi"</h3>
+                <span class="video_time">18:15 | 05.05.2025</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoOverlay" class="video-overlay">
+        <div id="videoBox" class="video-box">
+            <i id="closeButton" class="ri-close-line close-button"></i>
+            <iframe id="videoFrame" src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
     <main class="announcement container">
         <div class="announcement_elon">
             <div class="elon_txt">
@@ -526,12 +771,14 @@
                 <div class="octobank_elon">
                     <img src="./resources/images/center.jpg" alt="">
                     <h2>
-                        Kelajak uchun bitim: MARS IT School bolalar uchun IT-ta’limni rivojlantirishning yangi bosqichiga chiqyapti
+                        Kelajak uchun bitim: MARS IT School bolalar uchun IT-ta’limni rivojlantirishning yangi
+                        bosqichiga chiqyapti
                     </h2>
                 </div>
             </div>
         </div>
     </main>
+
 
     <footer class="footer container">
         <div class="foot_logo">
@@ -564,7 +811,9 @@
         qilinganligini bildiradi. <br>
     </p>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="./app.js"></script>
+    <script src="./app.js">
+
+    </script>
 </body>
 
 </html>
