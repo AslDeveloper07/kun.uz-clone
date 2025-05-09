@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: var(--color_light-gray);
+    background: linear-gradient(182deg,rgba(235, 234, 234, 0.932) 0%, rgba(255, 255, 255, 1) 100%);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
 }
@@ -885,11 +885,14 @@ swiper-slide img {
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .video_card:hover {
   /* transform: translateY(-5px); */
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
+  background-color: #716eff2a;
+  box-shadow: 0 8px 16px rgba(0, 60, 255, 0);
 }
 
 .video_image_container {
@@ -909,8 +912,8 @@ swiper-slide img {
   bottom: 10px;
   left: 10px;
   font-size: 19px;
-  color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 17, 255);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
@@ -919,8 +922,8 @@ swiper-slide img {
 
 .play-button:hover {
   transform: scale(1.1);
-  background-color: rgb(255, 255, 255);
-  color: #000;
+  background-color: rgba(255, 255, 255, 0.521);
+  color: #0414f5;
 }
 
 .video_text_content {
