@@ -32,7 +32,9 @@ a {
   text-decoration: none;
   color: var(--color_black);
 }
-
+.hidden{
+    display: none;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -500,19 +502,24 @@ a {
   gap: 40px;
   padding: 10px 0 20px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+  cursor: pointer;
 }
-.news_report_txt span i {
-  color: var(--color_blue);
-  font-size: 16px;
+.ri-play-circle-fill{
+    color: #0300a3;
 }
 .news_report_txt span {
   font-size: 14px;
   margin-bottom: 10px;
   color: rgb(90, 90, 90);
 }
+
 .news_teport_txt h1 {
   width: 450px;
   font-size: 24px;
+  transition: all 0.4s ease;
+}
+.news_teport_txt h1:hover{
+    color: #0300ac;
 }
 .news_report img {
   width: 200px;
@@ -530,6 +537,7 @@ a {
   gap: 20px;
   flex-wrap: wrap;
   margin-bottom: 40px;
+  cursor: pointer;
 }
 .elon_txt {
   display: flex;
@@ -546,6 +554,13 @@ a {
   justify-content: start;
   align-items: center;
   gap: 20px;
+}
+.elon_sarlavha h1{
+    color: #001486;
+}
+.elon_sarlavha p{
+    color: #4a4a4a;
+    font-weight: 600;
 }
 .elon_txt_journal img {
   width: 10%;
@@ -1056,3 +1071,42 @@ swiper-slide img {
 }
 
 
+.menyu{
+background-color: rgb(231, 231, 231);
+border-radius: 5px;
+position: absolute;
+top: 310px;
+right: 62px;
+height: 270px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.menyu_link{
+display: flex;
+flex-direction: row;
+gap: 60px;
+padding: 20px 20px 0 20px;
+
+}
+.menyu_link a{
+font-size: 25px;
+font-weight: 700;
+color: var(--color_blue);
+}
+.link_1, .link_2, .link_3, .link_4{
+display: flex;
+flex-direction: column;
+}
+
+.region {
+background-color: #4a4a4a3b;
+padding: 8px;
+font-weight: 500;
+}
+.region ul{
+list-style: none;
+display: flex;
+gap: 44px;
+justify-content: center;
+}
