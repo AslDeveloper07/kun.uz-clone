@@ -759,17 +759,20 @@ swiper-slide img {
   top: 740px;
   right: -650px;
 }
-
+.cardlar p{
+    text-align: start;
+    padding: 20px;
+}
 .cardlar .red {
-  background-color: #f43f5e;
+  background-color: #ff1e00;
 }
 
 .cardlar .blue {
-  background-color: #3b82f6;
+  background-color: #0400ff;
 }
 
 .cardlar .green {
-  background-color: #22c55e;
+  background-color: #001486;
 }
 
 .cardlar .cardlarim {
@@ -849,9 +852,14 @@ swiper-slide img {
 }
 
 .foot_social i {
-  font-size: 24px;
+  font-size: 22px;
   margin-left: 20px;
   color: #4a4a4a;
+  transition: 0.3s ease-in-out;
+}
+.foot_social i:hover{
+    font-size: 25px;
+    color: var(--color_blues);
 }
 .poragraph {
   font-size: 13px;
@@ -1043,3 +1051,5 @@ swiper-slide img {
     height: 220px;
   }
 }
+
+
