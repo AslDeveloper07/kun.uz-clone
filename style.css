@@ -985,17 +985,17 @@ swiper-slide img {
   justify-content: center;
   z-index: 999;
 }
-
 .video-box {
   background: black;
   border-radius: 12px;
   width: 90%;
   max-width: 900px;
   aspect-ratio: 16 / 9;
-  animation: fadeIn 0.3s ease-out forwards;
+  /* O‘CHIRING: animation: fadeIn 0.3s ease-out forwards; */
   overflow: hidden;
   position: relative;
 }
+
 
 .video-box.fade-out {
   animation: fadeOut 0.3s ease-in forwards;

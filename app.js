@@ -26,14 +26,16 @@ const videoBox = document.getElementById("videoBox");
 const videoFrame = document.getElementById("videoFrame");
 const closeButton = document.getElementById("closeButton");
 
+
 function openVideoModal(button, videoUrl) {
   currentPlayButton = button;
   videoFrame.src = videoUrl + "?autoplay=1&controls=1";
-  overlay.style.display = "flex";
-  videoBox.classList.remove("fade-out");
-  button.className = "ri-pause-fill play-button";
+  overlay.style.display = 'flex';
+  // O‘CHIRING: videoBox.classList.remove('fade-out');
+  button.className = 'ri-pause-fill play-button';
   videoPlaying = true;
 }
+
 
 function closeModal() {
   videoBox.classList.add("fade-out");
