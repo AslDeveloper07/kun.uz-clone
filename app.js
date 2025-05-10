@@ -17,8 +17,6 @@
 //   },
 // });
 
-
-
 // video modal ishlash
 let currentPlayButton = null;
 let videoPlaying = false;
@@ -64,3 +62,10 @@ document.addEventListener("keydown", (e) => {
 });
 
 
+// Menu modal ochilishi
+const hamburger = document.getElementById("hamburger-toggle");
+const mobileMenu = document.getElementById("mobile-menu");
+
+hamburger.addEventListener("change", () => {
+  mobileMenu.classList.toggle("active");
+});
