@@ -855,22 +855,53 @@ swiper-slide img {
   padding: 10px 20px;
   border-radius: 7px;
 }
-.foot_link ul {
+
+
+.word-container {
   display: flex;
-  gap: 30px;
-  align-items: center;
-  font-weight: 650;
-  color: #4a4a4a;
+  gap: 20px;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
-.foot_link ul li a {
-  color: #4a4a4a;
+
+.word-item {
+  position: relative;
+  overflow: hidden;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.normal-word {
+  display: block;
+  visibility: visible;
+}
+
+.hover-word {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.word-item:hover .normal-word {
+  visibility: hidden;
+}
+
+.word-item:hover .hover-word {
+  opacity: 1;
+  visibility: visible;
+  color: var(--color_blues);
+  transform: translateY(-100%);
 }
 
 .foot_social i {
   font-size: 22px;
   margin-left: 20px;
   color: #4a4a4a;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
 .foot_social i:hover{
     font-size: 25px;
@@ -883,7 +914,6 @@ swiper-slide img {
   margin-bottom: 30px;
 }
 
-/* Video Cards Container */
 .video_card_container {
   display: flex;
   flex-wrap: wrap;
@@ -892,7 +922,6 @@ swiper-slide img {
   margin-bottom: 50px;
 }
 
-/* Video Card Styles */
 .video_card {
   width: calc(25% - 15px);
   background: #fff;
