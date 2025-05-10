@@ -71,9 +71,11 @@ a {
 .main {
   font-weight: 500;
   color: var(--color_blue);
-  background-color: var(--color_light-gray);
+  background-color: rgba(228, 228, 228, 0.315);
+
   padding: 3px 10px;
   border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.267);
   text-align: center;
   display: flex;
   align-items: center;
@@ -83,6 +85,10 @@ a {
   cursor: pointer;
   justify-content: center;
   gap: 5px;
+  transition: 0.3s ease-in-out;
+}
+.main:hover{
+  background-color: rgba(207, 207, 207, 0.363);
 }
 .main i {
   font-size: 20px;
@@ -242,20 +248,23 @@ a {
   position: relative;
   width: 230px;
   height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.267);
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  background-color: var(--color_light-gray);
+  background-color: rgba(228, 228, 228, 0.315);
   transition: all 0.3s ease;
+}
+.mainbox:hover{
+  background-color: rgba(207, 207, 207, 0.363);
 }
 
 .checkbox:focus {
   border: none;
   outline: none;
 }
-
 .checkbox:checked {
   right: 10px;
 }
@@ -904,7 +913,7 @@ swiper-slide img {
   transition: 0.1s ease-in-out;
 }
 .foot_social i:hover{
-    font-size: 25px;
+    /* font-size: 25px; */
     color: var(--color_blues);
 }
 .poragraph {
