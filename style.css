@@ -769,7 +769,6 @@ swiper-slide img {
   width: 340px;
 }
 .swipcard h1 {
-  /* max-width: 280px; */
   margin: 10px;
   font-size: 16px;
   color: white;
@@ -788,7 +787,7 @@ swiper-slide img {
     padding: 20px;
 }
 .cardlar .red {
-  background-color: #ff1e00;
+  background-color: #000e29;
 }
 
 .cardlar .blue {
