@@ -1130,13 +1130,12 @@ swiper-slide img {
   grid-column-start: 10;
 }
 
-/* .div3 {
-  background-color: #001486;
+ .div3 {
   grid-column: span 3 / span 3;
   grid-row: span 6 / span 6;
   grid-column-start: 7;
   grid-row-start: 6;
-} */
+}
 
 .div4 {
   grid-column: span 6 / span 6;
@@ -1145,4 +1144,55 @@ swiper-slide img {
   grid-row-start: 6;
   position: absolute;
   top: 722px;
+}
+.cerds {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;top: 733px;
+}
+
+.cerds .red {
+  background-color: #000f64;
+}
+
+.cerds .blue {
+  background-color: #00358a;
+}
+
+.cerds .green {
+  background-color: #1900ff;
+}
+
+.cerds .cardlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 190px;
+  width: 340px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+  padding: 0 10px 0 10px;
+}
+
+.cerds .cardlar p.tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.cerds .cardlar p.second-text {
+  font-size: .7em;
+}
+
+.cerds .cardlar:hover {
+  transform: scale(1., 1.1);
+}
+
+.cerds:hover > .cardlar:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
 }
