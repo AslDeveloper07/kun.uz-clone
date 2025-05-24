@@ -29,5 +29,5 @@ To run this project on your local machine:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/kunuz-clone.git
-cd kunuz-clone
+git clone https://github.com/AslDeveloper07/kunuz-clone.git
+
